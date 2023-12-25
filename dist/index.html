@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <style>
+            html, body {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas tabindex="1" width="765" height="503" id="mapCanvas"></canvas>
+        
+        <script type="module">
+            import {MapViewer} from "./mapviewer.js"
+
+            const canvas = document.getElementById("mapCanvas");
+            const mapViewer = new MapViewer(canvas);
+        </script>
+    </body>
+</html>

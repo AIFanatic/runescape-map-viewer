@@ -1,0 +1,20 @@
+{
+  "name": "map-viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "esbuild src/index.ts --bundle --inject:./esbuild.inject.js --outfile=dist/mapviewer.js --target=es2020 --format=esm --watch"
+  },
+  "devDependencies": {
+    "@types/three": "^0.158.2",
+    "esbuild": "^0.19.5"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "pako": "^2.1.0",
+    "seek-bzip": "^2.0.0",
+    "three": "^0.158.0",
+    "zlib": "^1.0.5"
+  }
+}
