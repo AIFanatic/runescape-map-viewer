@@ -1,5 +1,7 @@
 # Runescape Map Viewer
 A web based map viewer for runescape 377.
+<br>
+![](./screenshot.png)
 
 [LIVE LINK](https://aifanatic.github.io/runescape-map-viewer/dist/index.html)
 <br>
@@ -11,3 +13,5 @@ A web based map viewer for runescape 377.
 The code is not particularly clean.
 <br>
 Uses some simple tricks in order to increase performance.
+<br>
+Some things are not done like floor and object textures, floor vertex color blending, animations etc.
