@@ -1,7 +1,7 @@
 # Runescape Map Viewer
 A web based map viewer for runescape 377.
 <br>
-![](./screenshot.png)
+![](./screenshot.jpg)
 
 [LIVE LINK](https://aifanatic.github.io/runescape-map-viewer/dist/index.html)
 <br>
